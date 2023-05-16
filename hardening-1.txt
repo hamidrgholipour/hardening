@@ -16,11 +16,11 @@ ufw default allow outgoing
 
 ufw allow 22/tcp # allow incoming SSH traffic
 
-ufw allow 80/tcp # allow incoming HTTP traffic
 
-ufw allow 443/tcp # allow incoming HTTPS traffic
 
 ufw enable
+
+#check iptables 
 
 
 # Disable root login via SSH
